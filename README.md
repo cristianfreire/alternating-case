@@ -1,1 +1,1 @@
-# alternating-case
+# AlTeRnAtInG
