@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        var s = "cristian"
+
+        function altCase(s) {
+            var chars = s.toLowerCase().split("")
+            for (var i = 0; i < chars.length; i += 2) {
+                chars[i] = chars[i].toUpperCase()
+
+            }
+            return chars.join("")
+        }
+
+        console.log(altCase(s))
+    </script>
+</body>
+
+</html>
